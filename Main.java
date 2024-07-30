@@ -113,6 +113,7 @@ public class Main {
 Optional<String> name =students.stream().sorted((o1,o2) ->o1.getRank()-o2.getRank()).skip(1).findFirst().map(n -> n.getFirstName() + ":" + n.getRank());
 
         System.out.println(name.get());
+        System.out.println("End of code");
     }
 
 }
