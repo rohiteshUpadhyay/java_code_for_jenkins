@@ -114,6 +114,7 @@ Optional<String> name =students.stream().sorted((o1,o2) ->o1.getRank()-o2.getRan
 
         System.out.println(name.get());
         System.out.println("End of code");
+        System.out.println("Another push");
     }
 
 }
